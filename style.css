@@ -43,7 +43,7 @@ div.bulletsHeadline {
     color: white;
     font-family: Jura;
     font-size: 20px;
-    margin-left: 45%;
+    margin-left: 40%;
     position: relative;
 }
 ul.bullets  {
@@ -51,9 +51,15 @@ ul.bullets  {
     font-size: 16px;
     margin-top: 20px;
     text-align: left;
-    margin-left: 45%;
+    margin-left: 0%;
     position: relative;
-
+}
+div.verticalLine {
+    border-left: 2px solid #00cccc;
+    height: 450px;
+    margin-left: 37%;
+    margin-top: 140px;
+    position: absolute;
 }
 @media screen and (max-width: 1000px) {
     div.title {font-size: 40px;}
