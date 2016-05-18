@@ -15,12 +15,13 @@ div.title {
     color: white;
     position: relative;
 }
-div.contactDetails {
+div.title div.contactDetails {
     text-align: center;
     font-family: Jura;
     color: white;
     font-size: 15px;
     margin-top: 15px;
+    text-decoration: none;
     position: relative;
 }
 div.title div.contactDetails span#smallLeftLine {
