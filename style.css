@@ -51,7 +51,6 @@ ul.bullets  {
     font-size: 16px;
     margin-top: 20px;
     text-align: left;
-    margin-left: 0%;
     position: relative;
 }
 div.verticalLine {
@@ -69,7 +68,9 @@ div.verticalLine {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 300px) {
     div.title {font-size: 80px;}
     div.title div.contactDetails {font-size: 10px;}
+    div.bulletsHeadline {margin-left: 35%;}
+    div.verticalLine {margin-left: 32%;}
 }
