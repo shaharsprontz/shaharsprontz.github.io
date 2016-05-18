@@ -5,7 +5,6 @@ div.container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    border: 1px solid white;
 }
 div.title {
     font-family: Orbitron;
@@ -43,7 +42,6 @@ div.content {
     width: 800px;
     margin: 0 auto;
     text-align: left;
-    border: 1px solid white;
     padding-top: 15px;
 }
 div.bulletsHeadline {
