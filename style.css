@@ -1,0 +1,68 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#324e4e), to(#000000)) fixed;"
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header {
+    height: 100px;
+    position: relative;
+}
+div.header {
+    font-family: Orbitron;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+div.contactDetails {
+    text-align: center;
+    font-family: Jura;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+header div.header div.contactDetails span#smallLeftLine {
+    top: -1px;
+    height: 20px;
+    border-left: 2px #00cccc solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header div.header div.contactDetails span#smallRightLine {
+    top: -1px;
+    height: 20px;
+    border-left: 2px #00cccc solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.bulletsHeadline {
+    margin-top: 25px;
+    color: white;
+    font-family: Jura;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 470px;
+    width: 40%;
+}
+ul.bullets {
+    position: absolute;
+    color: #00cccc;
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 470px;
+    width: 40%;
+
+}
+.leftBorder {
+    border-left: 2px #00cccc solid;
+    height: 400px;
+    position: absolute;
+    margin-left: 33%;
+}
