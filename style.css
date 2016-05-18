@@ -64,8 +64,8 @@ div.verticalLine {
 }
 @media screen and (max-width: 750px) {
     div.title {font-size: 40px;}
-    div.title div.contactDetails {font-size: 13px;}
-    .bulletsHeadline {margin-left: 44%;}
+    div.bulletsHeadline {margin-left: 40%;}
+    div.verticalLine {margin-left: 38%;}
 
 }
 
