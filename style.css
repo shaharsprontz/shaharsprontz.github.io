@@ -5,12 +5,12 @@ div.container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-
+    border: 1px solid white;
 }
 div.title {
     font-family: Orbitron;
-    font-size: 50px;
-    margin-top: 100px;
+    font-size: 60px;
+    margin-top: 50px;
     text-align: center;
     color: white;
     position: relative;
@@ -39,13 +39,37 @@ div.title div.contactDetails span#smallRightLine {
     margin-left: 10px;
     margin-right: 10px;
 }
+div.content {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid white;
+    padding-top: 15px;
+}
 div.bulletsHeadline {
-    margin-top: 70px;
     color: white;
     font-family: Jura;
     font-size: 20px;
     margin-left: 42%;
+    margin-top: 0px;
+    position: relative;
+}
+div.bulletsHeadlineMiddle {
+    margin-top: 20px;
+    color: white;
+    font-family: Jura;
+    font-size: 20px;
     padding: 10px 10px 10px 10px;
+    margin-left: 42%;
+    position: relative;
+}
+div.bulletsHeadlineBottom {
+    margin-top: 20px;
+    color: white;
+    font-family: Jura;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 42%;
     position: relative;
 }
 
@@ -53,21 +77,29 @@ div.bulletsHeadline div.bullet {
     margin-top: 10px;
     color: #00cccc;
 }
+div.bulletsHeadlineMiddle div.bullet {
+    margin-top: 10px;
+    color: #00cccc;
+}
+div.bulletsHeadlineBottom div.bullet {
+    margin-top: 10px;
+    color: #00cccc;
+}
 span.lineColor {
     color: white;
     margin-left: 15px;
-
 }
-/*div.verticalLine {
+div.content div.verticalLine {
     border-left: 2px solid #00cccc;
-    height: 450px;
-    margin-left: 40%;
-    margin-top: 140px;
+    margin-left: 25%;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    height: 76.5%;
     position: absolute;
-}*/
+}
 @media screen and (max-width: 375px) {
     div.title {font-size: 40px;}
-    div.contactDetails {font-size: 12px;}
+    div.title div.contactDetails {font-size: 12px;}
     div.bulletsHeadline {margin: 0 auto; font-size: 12px;}
 }
 
