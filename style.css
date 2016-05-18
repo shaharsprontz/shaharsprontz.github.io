@@ -62,7 +62,7 @@ div.verticalLine {
     margin-top: 140px;
     position: absolute;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
     div.title {font-size: 40px;}
     div.title div.contactDetails {font-size: 13px;}
     #bulletsHeadline {font-size: 16px;}
