@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="content">
-        <div class="verticalLine"></div>
+        <div id="vertical" class="verticalLine"></div>
         <div class="bulletsHeadline"><span style="font-size: 14px;">2013 - 2015</span>&nbsp;&nbsp;&nbsp;&nbsp;<b>QA and Automation at GetStocks.com</b>
             <div class="bullet">&#8226<span class="lineColor">Designing, writing and performing manual and<br/>&nbsp;&nbsp;&nbsp;&nbsp;automated testing.</span></div>
             <div class="bullet">&#8226<span class="lineColor">Develop Automated UI tests for Android using<br/>&nbsp;&nbsp;&nbsp;&nbsp;calabash-android and ruby.</span></div>
@@ -43,6 +43,13 @@
     </div>
 </div>
 
+<script>
+    if (screen.width <= 375) {
+        document.getElementById("vertical").classList.remove("verticalLine");
+    }else {
+        document.getElementsByClassName("verticalLine").className = "verticalLine";
+    }
+</script>
 <!--<div class="print" style="position: fixed; margin-left: 840px; bottom: 15px;"><a href="javascript:window.print()">
     <img src="pics/printer_and_fax_w.png" style="width: 50px; height: 50px;"></a></div>
 
