@@ -44,16 +44,18 @@ div.bulletsHeadline {
     font-family: Jura;
     font-size: 20px;
     margin-left: 42%;
-    padding-right: 20px;
+    padding-right: 30px;
     position: relative;
 }
-ul.bullets  {
+
+div.bulletsHeadline div.bullet {
+    margin-top: 10px;
     color: #00cccc;
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: left;
-    width: auto;
-    position: relative;
+}
+span.lineColor {
+    color: white;
+    margin-left: 15px;
+
 }
 /*div.verticalLine {
     border-left: 2px solid #00cccc;
@@ -61,11 +63,9 @@ ul.bullets  {
     margin-left: 40%;
     margin-top: 140px;
     position: absolute;
-}
-*/
-@media screen and (max-width: 800px) {
-    div.title {font-size: 40px;}
+}*/
+@media screen and (max-width: 260px) {
+    div.title {font-size: 10px;}
     div.contactDetails {font-size: 12px;}
 }
-
 
