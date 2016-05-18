@@ -64,7 +64,7 @@ span.lineColor {
     margin-top: 140px;
     position: absolute;
 }*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     div.title {font-size: 40px;}
     div.contactDetails {font-size: 12px;}
     div.bulletsHeadline {margin: 0 auto; font-size: 12px;}
