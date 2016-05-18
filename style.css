@@ -69,7 +69,7 @@ ul.bullets {
 @media screen and (max-width: 1000px) {
     header div.header {font-size: 40px;}
     header div.header div.contactDetails {font-size: 13px;}
-    #bulletsHeadline {font-size: 18px;}
+    #bulletsHeadline {font-size: 16px;}
     #bullets {font-size: 14px;}
 
 }
