@@ -92,12 +92,12 @@ div.content div.verticalLine {
     height: 82.5%;
     position: absolute;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
     div.title {margin: 0 auto; font-size: 40px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px;}
     div.bulletsHeadline {margin: 0 auto; font-size: 12px; paddint-top: 20px;}
     div.bulletsHeadlineMiddle {margin: 0 auto; top: 15px; font-size: 12px;}
     div.bulletsHeadlineBottom {margin: 0 auto; top: 30px; font-size: 12px;}
-    div.content {width: 360px;}
+    div.content {width: 360px; padding-left: 25px;}
 }
 
