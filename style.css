@@ -1,6 +1,5 @@
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#324e4e), to(#000000)) fixed; -webkit-linear-gradient(0deg,red 10%,yellow 30%,green 60%);
-
+    background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#000000)) fixed; -webkit-linear-gradient(0deg,red 10%,yellow 30%,green 60%);
 }
 div.container {
     max-width: 1200px;
@@ -87,11 +86,17 @@ span.lineColor {
 }
 div.content div.verticalLine {
     border-left: 2px solid #00cccc;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-top: 4px;
     margin-bottom: 0px;
     height: 82.5%;
     position: absolute;
+}
+div.professionalExperience {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
 }
 div.print a img {
     position: fixed;
@@ -115,7 +120,6 @@ div.download a img{
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
 }
-
 @media screen and (max-width: 375px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
