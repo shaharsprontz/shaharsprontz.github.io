@@ -4,7 +4,7 @@
 
 
 if (screen.width <= 360) {
-    document.getElementById("vertical", "leftCullom").classList.remove("verticalLine", "professionalExperience");
+    document.getElementById("vertical").classList.remove("verticalLine") && document.getElementById("leftCullom").classList.remove("professionalExperience");
 }else {
     document.getElementsByClassName("verticalLine").className = "verticalLine";
 }
