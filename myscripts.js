@@ -4,7 +4,13 @@
 
 
 if (screen.width <= 360) {
-    document.getElementById("vertical").classList.remove("verticalLine") && document.getElementById("leftCullom").classList.remove("professionalExperience");
+    document.getElementById("vertical").classList.remove("verticalLine")
 }else {
     document.getElementsByClassName("verticalLine").className = "verticalLine";
+}
+
+if (screen.width <= 360) {
+    document.getElementById("leftCullom").classList.remove("professionalExperience")
+}else {
+    document.getElementsByClassName("professionalExperience").className = "professionalExperience";
 }
