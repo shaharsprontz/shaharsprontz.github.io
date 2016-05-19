@@ -1,8 +1,6 @@
-html {
-    height: 100%;
-}
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#324e4e), to(#000000)) fixed;"
+    background: -webkit-gradient(linear, left top, left bottom, from(#324e4e), to(#000000)) fixed; -webkit-linear-gradient(0deg,red 10%,yellow 30%,green 60%);
+
 }
 div.container {
     max-width: 1200px;
@@ -95,12 +93,27 @@ div.content div.verticalLine {
     height: 82.5%;
     position: absolute;
 }
+div.bulletsHeadlineBottom div.print a img {
+    position: fixed;
+    width: 30px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+div.bulletsHeadlineBottom div.download a img{
+    position: fixed;
+    width: 30px;
+    margin-top: 20px;
+
+}
 @media screen and (max-width: 360px) {
-    div.title {margin: 0 auto; font-size: 40px;}
+    div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
-    div.bulletsHeadline {margin: 0 auto; font-size: 12px; paddint-top: 20px;}
+    div.bulletsHeadline {margin: 0 auto; font-size: 12px; padding-top: 20px;}
     div.bulletsHeadlineMiddle {margin: 0 auto; top: 15px; font-size: 12px;}
     div.bulletsHeadlineBottom {margin: 0 auto; top: 30px; font-size: 12px;}
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
+    div.bulletsHeadlineBottom div.print a img {}
+    div.bulletsHeadlineBottom div.download a img {}
+
 }
 
