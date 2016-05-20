@@ -3,7 +3,7 @@
  */
 
 
-if (screen.width <= 355) {
+if (screen.width <= 700) {
     document.getElementById("vertical").classList.remove("verticalLine");
 }else {
     document.getElementsByClassName("verticalLine").className = "verticalLine";
