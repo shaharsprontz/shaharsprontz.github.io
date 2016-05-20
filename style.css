@@ -130,6 +130,9 @@ div.download a img{
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
+    #leftTop {top: 10px;}
+    #leftMiddle {top:5px; margin-top: 10px;}
+    #leftBottom {top: 5px; margin-top: 25px;}
 }
 @media screen and (max-width: 375px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
