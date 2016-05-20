@@ -118,7 +118,7 @@ div.download a img{
     margin-top: 20px;
 
 }
-/*@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
     div.bulletsHeadline {font-size: 12px; padding-top: 20px;}
@@ -127,7 +127,7 @@ div.download a img{
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
-}*/
+}
 @media screen and (max-width: 375px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
