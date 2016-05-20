@@ -30,7 +30,6 @@ div.title div.contactDetails span#smallLeftLine {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 div.title div.contactDetails span#smallRightLine {
     top: -1px;
     height: 20px;
@@ -49,7 +48,7 @@ div.bulletsHeadline {
     font-family: Jura;
     font-size: 20px;
     margin-left: 42%;
-    margin-top: 20px;
+    margin-top: 30px;
     position: relative;
 }
 div.bulletsHeadlineMiddle {
@@ -69,16 +68,31 @@ div.bulletsHeadlineBottom {
     position: relative;
 }
 div.bulletsHeadline div.bullet {
-    margin-top: 10px;
+    margin-top: 0px;
     color: #00cccc;
+}
+#leftTop {
+    position: relative;
+    margin-top: 25px;
+    color: white;
 }
 div.bulletsHeadlineMiddle div.bullet {
-    margin-top: 10px;
+    margin-top: 0px;
     color: #00cccc;
 }
+#leftMiddle {
+    position: relative;
+    margin-top: 25px;
+    color: white;
+}
 div.bulletsHeadlineBottom div.bullet {
-    margin-top: 10px;
     color: #00cccc;
+    position: relative;
+}
+#leftBottom {
+    position: relative;
+    margin-top: 25px;
+    color: white;
 }
 span.lineColor {
     color: white;
@@ -92,12 +106,6 @@ div.content div.verticalLine {
     height: 82.5%;
     position: absolute;
 }
-div.professionalExperience {
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 20px;
-    color: white;
-}
 div.print a img {
     position: fixed;
     width: 30px;
@@ -110,7 +118,7 @@ div.download a img{
     margin-top: 20px;
 
 }
-@media screen and (max-width: 360px) {
+/*@media screen and (max-width: 360px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
     div.bulletsHeadline {font-size: 12px; padding-top: 20px;}
@@ -119,15 +127,18 @@ div.download a img{
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
-}
+}*/
 @media screen and (max-width: 375px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
     div.bulletsHeadline {margin: 0 auto; font-size: 12px; padding-top: 20px;}
     div.bulletsHeadlineMiddle {margin: 0 auto; top: 15px; font-size: 12px;}
-    div.bulletsHeadlineBottom {margin: 0 auto; top: 30px; font-size: 12px;}
+    div.bulletsHeadlineBottom {margin: 0 auto; top: 15px; font-size: 12px;}
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
+    #leftTop {top: 10px;}
+    #leftMiddle {top:5px; margin-top: 10px;}
+    #leftBottom {top: 5px; margin-top: 25px;}
 }
 
