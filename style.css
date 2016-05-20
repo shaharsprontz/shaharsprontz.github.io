@@ -74,6 +74,7 @@ div.bulletsHeadline div.bullet {
 #leftTop {
     position: relative;
     margin-top: 25px;
+    margin-left: 20px;
     color: white;
 }
 div.bulletsHeadlineMiddle div.bullet {
@@ -83,6 +84,7 @@ div.bulletsHeadlineMiddle div.bullet {
 #leftMiddle {
     position: relative;
     margin-top: 25px;
+    margin-left: 20px;
     color: white;
 }
 div.bulletsHeadlineBottom div.bullet {
@@ -92,6 +94,7 @@ div.bulletsHeadlineBottom div.bullet {
 #leftBottom {
     position: relative;
     margin-top: 25px;
+    margin-left: 20px;
     color: white;
 }
 span.lineColor {
@@ -100,7 +103,7 @@ span.lineColor {
 }
 div.content div.verticalLine {
     border-left: 2px solid #00cccc;
-    margin-left: 23%;
+    margin-left: 266px;
     margin-top: 4px;
     margin-bottom: 0px;
     height: 82.5%;
