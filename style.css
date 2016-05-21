@@ -2,9 +2,10 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#000000)) fixed; -webkit-linear-gradient(0deg,red 10%,yellow 30%,green 60%);
 }
 div.container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
+
 }
 div.title {
     font-family: Orbitron;
@@ -39,6 +40,7 @@ div.title div.contactDetails span#smallRightLine {
 }
 div.content {
     width: 800px;
+    height: auto;
     margin: 0 auto;
     text-align: left;
     padding-top: 15px;
@@ -47,8 +49,9 @@ div.bulletsHeadline {
     color: white;
     font-family: Jura;
     font-size: 20px;
-    margin-left: 42%;
+    margin-left: 33%;
     margin-top: 30px;
+    height: 33%;
     position: relative;
 }
 div.bulletsHeadlineMiddle {
@@ -56,7 +59,8 @@ div.bulletsHeadlineMiddle {
     color: white;
     font-family: Jura;
     font-size: 20px;
-    margin-left: 42%;
+    margin-left: 33%;
+    height: 33%;
     position: relative;
 }
 div.bulletsHeadlineBottom {
@@ -64,51 +68,61 @@ div.bulletsHeadlineBottom {
     color: white;
     font-family: Jura;
     font-size: 20px;
-    margin-left: 42%;
+    margin-left: 33%;
+    height: 33%;
     position: relative;
 }
 div.bulletsHeadline div.bullet {
     margin-top: 0px;
     color: #00cccc;
 }
-#leftTop {
-    position: relative;
-    margin-top: 25px;
-    margin-left: 20px;
-    color: white;
-}
+
 div.bulletsHeadlineMiddle div.bullet {
     margin-top: 0px;
     color: #00cccc;
 }
-#leftMiddle {
-    position: relative;
-    margin-top: 25px;
-    margin-left: 20px;
-    color: white;
-}
+
 div.bulletsHeadlineBottom div.bullet {
     color: #00cccc;
     position: relative;
 }
-#leftBottom {
-    position: relative;
-    margin-top: 25px;
-    margin-left: 20px;
-    color: white;
-}
+
 span.lineColor {
     color: white;
     margin-left: 15px;
 }
 div.content div.verticalLine {
     border-left: 2px solid #00cccc;
-    margin-left: 266px;
-    margin-top: 4px;
+    margin-left: 190px;
+    margin-top: 34px;
     margin-bottom: 0px;
-    height: 82.5%;
+    height: 70%;
     position: absolute;
 }
+div.leftContainer{
+    position: relative;
+    width: 100px;
+    margin-left: 290px;
+    bottom: 400px;
+    text-align: center;
+    color: white;
+    font-family: Jura;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.leftContainer #leftTop {
+    position: absolute;
+    margin-top: 0px;
+}
+#leftMiddle {
+    position: absolute;
+    top: 30px;
+}
+#leftBottom {
+    position: absolute;
+    margin-top: 50px;
+}
+
 div.print a img {
     position: fixed;
     width: 30px;
@@ -130,6 +144,7 @@ div.download a img{
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
+    div.content div.verticalLine {height: 0px;}
     #leftTop {top: 10px;}
     #leftMiddle {top:5px; margin-top: 10px;}
     #leftBottom {top: 5px; margin-top: 25px;}
@@ -143,6 +158,7 @@ div.download a img{
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     div.print a img {margin-top: 50px; margin-left: 110px;}
     div.download a img {margin-top: 50px; margin-left: 90px;}
+    div.content div.verticalLine {height: 0px;}
     #leftTop {top: 10px;}
     #leftMiddle {top:5px; margin-top: 10px;}
     #leftBottom {top: 5px; margin-top: 25px;}
