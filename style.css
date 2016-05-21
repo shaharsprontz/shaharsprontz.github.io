@@ -1,5 +1,5 @@
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#000000)) fixed; -webkit-linear-gradient(0deg,red 10%,yellow 30%,green 60%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#34495e), to(#000000)) fixed;
 }
 div.container {
     max-width: 800px;
