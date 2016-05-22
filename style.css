@@ -158,18 +158,12 @@ div.container div.bottomIcons {
     padding-top: 30px;
     text-align: center;
 }
-.print a img {
-    position: relative;
-    width: 30px;
-    top: 20px;
-}
-.download a img{
-    position: relative;
-    width: 30px;
-    top: 20px;
-}
-span.download {
-   margin-left: 40px;
+
+span.download a {
+    margin-left: 40px;
+    color: white;
+    font-family: Jura;
+    text-decoration: none;
 }
 /**@media screen and (max-width: 360px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
@@ -192,7 +186,7 @@ span.download {
     div.bulletsHeadlineMiddle {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
     div.bulletsHeadlineMiddle2  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
     div.bulletsHeadlineBottom  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
-    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px; margin-bottom: -20px;}
     div.content {padding-left: 25px; padding-bottom: 30px; width: 365px; text-align: left;}
     div.content div.verticalLine {height: 0px;}
     div.bulletsHeadlineMiddle b {font-size: 10px;}
@@ -201,8 +195,7 @@ span.download {
     div.bulletsHeadline b {font-size: 10px;}
     div.bulletsHeadline span.bulletHead {font-size: 10px;}
     span.lineColor {margin-left: 8px;}
-    span.print a img {margin-top: 50px; margin-left: 110px;}
-    span.download a img {margin-top: 50px; margin-left: 90px;}
+    span.download a  {margin: 0px;}
 
 
 }
