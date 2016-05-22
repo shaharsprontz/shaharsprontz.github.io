@@ -61,7 +61,6 @@ div.bulletsHeadline {
     font-size: 20px;
     margin-left: 33%;
     margin-top: 35px;
-    height: 33%;
     position: relative;
 }
 div.bulletsHeadlineMiddle {
@@ -71,7 +70,6 @@ div.bulletsHeadlineMiddle {
     font-family: Jura;
     font-size: 20px;
     margin-left: 33%;
-    height: 33%;
     position: relative;
 }
 div.bulletsHeadlineMiddle2 {
@@ -81,7 +79,6 @@ div.bulletsHeadlineMiddle2 {
     font-family: Jura;
     font-size: 20px;
     margin-left: 33%;
-    height: 33%;
     position: relative;
 }
 div.bulletsHeadlineBottom {
@@ -91,7 +88,6 @@ div.bulletsHeadlineBottom {
     font-family: Jura;
     font-size: 20px;
     margin-left: 33%;
-    height: 33%;
     position: relative;
 }
 div.bulletsHeadTechSkill {
@@ -101,7 +97,6 @@ div.bulletsHeadTechSkill {
     font-family: Jura;
     font-size: 20px;
     margin-left: 33%;
-    height: 33%;
     position: relative;
 }
 div.bulletsHeadline div.bullet {
@@ -176,27 +171,39 @@ div.container div.bottomIcons {
 span.download {
    margin-left: 40px;
 }
-@media screen and (max-width: 360px) {
+/**@media screen and (max-width: 360px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
-    div.bulletsHeadline {font-size: 12px; padding-top: 20px; height: 33%;}
-    div.bulletsHeadlineMiddle { top: 15px; font-size: 12px; height: 33%;}
-    div.bulletsHeadlineBottom { top: 35px; font-size: 12px; height: 33%;}
+    div.bulletsHeadline {margin:0 auto; font-size: 12px; padding-top: 20px;}
+    div.bulletsHeadlineMiddle {margin:0 auto; top: 15px; font-size: 12px;}
+    div.bulletsHeadlineMiddle2 {margin:0 auto; top: 30px; font-size: 12px;}
+    div.bulletsHeadlineBottom {margin:0 auto; top: 45px; font-size: 12px;}
+    div.bulletsHeadTechSkill {margin:0 auto; top: 55px; font-size: 12px;}
     div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
     span.print a img {margin-top: 50px; margin-left: 110px;}
     span.download a img {margin-top: 50px; margin-left: 90px;}
     div.content div.verticalLine {height: 0px;}
-}
-@media screen and (max-width: 375px) {
+}**/
+@media screen and (max-width: 420px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
-    div.bulletsHeadline {margin: 0 auto; font-size: 12px; padding-top: 20px; height: 33%;}
-    div.bulletsHeadlineMiddle {margin: 0 auto; top: 15px; font-size: 12px; height: 33%;}
-    div.bulletsHeadlineBottom {margin: 0 auto; top: 35px; font-size: 12px; height: 33%;}
-    div.content {width: 360px; padding-left: 25px; padding-bottom: 30px;}
+    div.objectives {padding-top: 5px; font-size: 14px; width: 320px; margin: 0;}
+    div.bulletsHeadline  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle2  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineBottom  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.content {padding-left: 25px; padding-bottom: 30px; width: 365px; text-align: left;}
+    div.content div.verticalLine {height: 0px;}
+    div.bulletsHeadlineMiddle b {font-size: 10px;}
+    div.bulletsHeadlineMiddle2 b {font-size: 10px;}
+    div.bulletsHeadlineBottom b {font-size: 10px;}
+    div.bulletsHeadline b {font-size: 10px;}
+    div.bulletsHeadline span.bulletHead {font-size: 10px;}
+    span.lineColor {margin-left: 8px;}
     span.print a img {margin-top: 50px; margin-left: 110px;}
     span.download a img {margin-top: 50px; margin-left: 90px;}
-    div.content div.verticalLine {height: 0px;}
+
 
 }
 
