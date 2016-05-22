@@ -130,7 +130,7 @@ div.content div.verticalLine {
     margin-left: 190px;
     margin-top: 34px;
     margin-bottom: 0px;
-    height: 68%;
+    height: 65%;
     position: absolute;
 }
 div.leftContainer{
@@ -145,22 +145,21 @@ div.leftContainer{
     font-weight: 600;
 }
 .leftTop {
-    position: absolute;
+    position: relative;
     margin-top: -85px;
 }
 .leftBottom {
-    position: absolute;
+    position: relative;
     margin-top: 355px;
 }
-div.container div.bottomIcons {
+div.container div.bottomIcon {
     width: 150px;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: -270px auto;
     text-align: center;
 }
 
 span.download a {
-    margin-left: 40px;
+    margin: 0 auto;
     color: white;
     font-family: Jura;
     text-decoration: none;
@@ -195,7 +194,8 @@ span.download a {
     div.bulletsHeadline b {font-size: 10px;}
     div.bulletsHeadline span.bulletHead {font-size: 10px;}
     span.lineColor {margin-left: 8px;}
-    span.download a  {margin: 0px;}
+    div.container div.bottomIcon {margin: -250px 80px auto;}
+    div.leftContainer {text-indent: 100%; white-space: nowrap; overflow: hidden;}
 }
 @media screen and (max-width: 740px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
@@ -214,5 +214,7 @@ span.download a {
     div.bulletsHeadline b {font-size: 10px;}
     div.bulletsHeadline span.bulletHead {font-size: 10px;}
     span.lineColor {margin-left: 8px;}
-    span.download a  {margin: 0px;}
+    span.download a {margin: 0 30px auto;}
+    div.container div.bottomIcon {margin: -250px 80px auto;}
+    div.leftContainer {text-indent: 100%; white-space: nowrap; overflow: hidden;}
 }
