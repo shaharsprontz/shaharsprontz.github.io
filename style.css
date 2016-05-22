@@ -178,7 +178,7 @@ span.download a {
     span.download a img {margin-top: 50px; margin-left: 90px;}
     div.content div.verticalLine {height: 0px;}
 }**/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 375px) {
     div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
     div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
     div.objectives {padding-top: 5px; font-size: 14px; width: 320px; margin-left: -10px;}
@@ -196,7 +196,23 @@ span.download a {
     div.bulletsHeadline span.bulletHead {font-size: 10px;}
     span.lineColor {margin-left: 8px;}
     span.download a  {margin: 0px;}
-
-
 }
-
+@media screen and (max-width: 740px) {
+    div.title {margin: 0 auto; font-size: 40px; padding-top: 10px;}
+    div.title div.contactDetails {margin: 0 auto; font-size: 12px; padding-top: 10px;}
+    div.objectives {padding-top: 5px; font-size: 14px; width: 300px; margin-left: 5px;}
+    div.bulletsHeadline  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineMiddle2  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadlineBottom  {font-size: 12px; width: 365px; text-align: left; margin-left: -25px;}
+    div.bulletsHeadTechSkill {font-size: 12px; width: 365px; text-align: left; margin-left: -25px; margin-bottom: -20px;}
+    div.content {padding-left: 25px; padding-bottom: 30px; width: 365px; text-align: left;}
+    div.content div.verticalLine {height: 0px;}
+    div.bulletsHeadlineMiddle b {font-size: 10px;}
+    div.bulletsHeadlineMiddle2 b {font-size: 10px;}
+    div.bulletsHeadlineBottom b {font-size: 10px;}
+    div.bulletsHeadline b {font-size: 10px;}
+    div.bulletsHeadline span.bulletHead {font-size: 10px;}
+    span.lineColor {margin-left: 8px;}
+    span.download a  {margin: 0px;}
+}

@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Jura">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
+    <script type="text/javascript" src="myscripts.js"></script>
 </head>
 <body>
 <div class="container">
@@ -52,27 +51,17 @@
         <div class="bullet">&#8226<span class="lineColor"><b>Languages:</b> HTML, CSS, Cucumber.</span></div>
         <div class="bullet">&#8226<span class="lineColor"><b>Bug Tracking Tools:</b> Jira, Trello</span></div>
     </div>
-    <div class="leftContainer">
-        <div class="leftTop"></div>
-        <div class="leftBottom"></div>
+    <div id="leftContain" class="leftContainer">
+        <div class="leftTop">Professional Experience</div>
+        <div class="leftBottom">Technical Skills</div>
     </div>
 </div>
     <div class="bottomIcons">
         <span class="download"><a href="https://github.com/shaharsprontz/shaharsprontz.github.io/raw/master/Shahar%20Sprontz%20-%20CV.pdf">Download</a></span>
     </div>
 </div>
-<script>
-    $(window).on(function(){
-    if (window < 800) {
-        $("leftContainer").remove("leftContainer");
-    }
-    else
-    {
-        $('html').addClass('leftContainer');
-    }
-});
-</script>
 
+<script src="myscripts.js"></script>
 </body>
 
 </html>
